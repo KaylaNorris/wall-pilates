@@ -4,32 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Wall Pilates</title>
 </head>
 
 <body>
 
     <header>
+        <h1>Wall Pilates at Home</h1>
         <nav>
-            <a href="about">About</a>
-            <a href="#tutorials">Tutorials</a>
-            <a href="#contact-us">Contact Us</a>
+            <ul>
+                <li>
+                   <a href="about" id="link">About</a>
+                </li>
+                <li> 
+                  <a href="#tutorials" id="link">Tutorials</a>
+                </li>
+                <li>
+                  <a href="#contact-us" id="link">Contact Us</a>
+                </li>
+            </ul>      
         </nav>
     </header>
 
-    <h1>Wall Pilates for Beginners</h1>
+    <section class="text-center">
+        <h2 class="text-center">Take Control of Your Health</h2>
+    </section>
 
-    <img src="./assets/2091_U1RVRElPIEtBVCAwNjItODA.jpg" alt="girls practicing pilates positions">
-    <a href="https://www.vecteezy.com/free-vector/pilates">Pilates Vectors by Vecteezy</a>
+    <figure>
+        <img src="./assets/2091_U1RVRElPIEtBVCAwNjItODA.jpg" alt="girls practicing pilates positions">
+        <a href="https://www.vecteezy.com/free-vector/pilates" id="caption">Pilates Vectors by Vecteezy</a>
+    </figure><br>
 
-    <h2>Try Pilates at home with no equipment! All you need is yourself and the wall.</h2>
-    <p>Taking charge of your physical health has never been easier.</p> 
-    <p>There are three levels to our program: Beginner, Intermediate, and Advanced.</p>
-    <p>You're free to start at whatever level is most comfortable for you.</p>
-    <p>Fill out the form below to get started!</p>
+    <section class="text-center">
+       <h3>Try Pilates at home with no equipment! All you need is yourself and the wall.</h3><br>
+       <p>Taking charge of your physical health has never been easier.</p> 
+       <p>There are three levels to our program: Beginner, Intermediate, and Advanced.</p>
+       <p>You're free to start at whatever level is most comfortable for you.</p>
+       <p>Fill out the form below to get started.</p>
+    </section><br>
 
-    <form>
-        <p id="contact-us">Contact Us!</p>
+    <form class="text-center">
+        <p id="contact-us">Contact Us!</p><br>
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
         <label for="email">Email:</label><br>
@@ -37,8 +53,8 @@
         <input type="submit" id="button">
     </form>
 
-    <footer>
-        <p>I <3 to code!</p>
+    <footer class="text-center">
+        <p>I <3 coding</p>
     </footer>
     
 </body>
